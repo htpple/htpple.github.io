@@ -1,0 +1,36 @@
+.article_body{
+    color: #ffffff;
+}
+.article_header{
+    text-align: center;
+    margin-block-end: 1.5rem;
+}
+.article_title{
+    font-size: 3rem;
+}
+@media screen and (max-width: 359px){
+    .article_title{
+        font-size: 2rem;
+    }
+}
+.article_subtitle{
+   font-size: 1.5rem;
+   color: rgba(110, 110, 110, 1); 
+   margin-block-end: 1rem; 
+}
+.article_date time{
+    color: rgba(110, 110, 110, 1);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.article_poster{
+    margin-block-end: 1rem;
+}
+.article_content p{
+    text-indent: 2rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
